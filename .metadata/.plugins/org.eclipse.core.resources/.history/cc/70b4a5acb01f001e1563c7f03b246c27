@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+/* FOOTER */
+.footer{
+  width: 100%;
+  height: fit-content;
+  margin-top: 150px;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 15px;
+}
+.footer-info ul{
+  /* width: max-content; */
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+
+}
+.footer-info li{
+  text-align: center;
+  margin-left: 20px;
+  /* margin: 0 50px; */
+  list-style: none;
+}
+
+.footer-info li:first-child{
+  margin-left: 0%;
+  padding: 0%;
+}
+
+.footer-info ul{
+  padding: 0%;
+}
+
+.footer-info a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer .footer-title{
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.footer-title-text-head{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.footer .footer-title .title h2{
+  font-size: 0.9rem;
+  color: lightslategray;
+  font-weight: bold;
+}
+.footer .footer-title .producer h2{
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: rgb(86, 89, 92);
+}
+.footer-title ion-icon{
+  font-size: 3.4rem;
+}
+
+
+.footer button{
+  color: black;
+  padding: 0.5rem 2rem;
+  border: 0;
+  border-radius: 2rem;
+  background: lightskyblue;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+.footer button ion-icon{
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+/* 1400 PX   */
+/* 1400 PX   */
+/* 1400 PX   */
+/* 1400 PX   */
+
+@media screen and (min-width: 1800px) {
+  .right-bar{
+      gap: 3rem;
+  }
+  .user-box-container{
+
+      margin-bottom: 14rem;
+  }
+  .user-box{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 4rem;
+  }
+  .title-container{
+      margin-bottom: 5rem;
+  }
+
+  .right-bar ion-icon{
+      transition: transform 150ms;
+      transform: scale(1.2);
+  }
+  .right-bar ion-icon:nth-of-type(1):hover{
+     transform: scale(1.5);
+  }
+  .right-bar ion-icon:nth-of-type(2):hover{
+      transform: scale(1.5);
+   }
+   .right-bar ion-icon:nth-of-type(3):hover{
+      transform: scale(1.5);
+   }
+   .right-bar .logo:hover {
+      transform: scale(1.5);
+  }
+  .right-bar .logo ,ion-icon{
+      transition: 500ms;
+  }
+  .right-bar .logo ion-icon:hover{
+      transform: scale(1);
+  }
+  
+}
